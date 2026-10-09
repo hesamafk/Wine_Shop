@@ -17,3 +17,7 @@ This is a portfolio UI concept only. It does not provide a real cart, inventory,
 ## Project files
 - `index.html` — page structure and responsive navigation
 - `main.css` — styling and responsive breakpoints
+
+
+## Quality checks
+A GitHub Actions workflow checks that local stylesheet references, local file links, and in-page anchors point to existing targets on every push and pull request.
